@@ -9,9 +9,9 @@ La base de datos utilizada consiste en 410 imágenes microscópicas con sus resp
 
  Se llevará a cabo la clasificación de las siguientes células :
 
-*Glóbulos Rojos (GR).
-*Glóbulos Blancos (GB).
-*Plaquetas.
+ * Glóbulos Rojos (GR).
+ * Glóbulos Blancos (GB).
+ * Plaquetas.
 
 
 ## Preprocesado del conjunto de datos.
