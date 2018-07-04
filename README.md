@@ -23,13 +23,14 @@ Gran parte del trabajo está enfocado en limpiar y preprocesar el conjunto de da
 * Se normalizaron las imágenes para que el rango de valores vayan de 0 a 1.
 
 * Aumentar la cantidad de imágenes:
-
   * Se rotaron las imágenes. Los ángulos de rotación fueron 90º, 180º, 270º.
   * A partir de las imágenes rotadas se invirtieron las imágenes con respecto al eje X y con respecto al eje Y.
   
 El resultado total fue que se logro expandir la base de datos a 4100 imágenes. 
 
+## Labels de las imagenes.
 
+Con el fin de utilizar el algoritmo YOLO los labels de las imagenes fueron organizados de la siguiente manera
 
 
 
