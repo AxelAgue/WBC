@@ -28,7 +28,7 @@ Gran parte del trabajo está enfocado en limpiar y preprocesar el conjunto de da
   
 El resultado total fue que se logro expandir la base de datos a 4100 imágenes. 
 
-## Labels de las imagenes.
+## Labels de las imágenes.
 
 Con el fin de utilizar el algoritmo YOLO los labels de las imagenes fueron organizados de la siguiente manera
 
