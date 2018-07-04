@@ -12,6 +12,8 @@ La base de datos utilizada consiste en 410 imágenes microscópicas con sus resp
  * Glóbulos Rojos (GR).
  * Glóbulos Blancos (GB).
  * Plaquetas.
+ 
+ ![example](./example.jpg)
 
 
 ## Preprocesado del conjunto de datos.
