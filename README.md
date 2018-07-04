@@ -7,11 +7,11 @@ El siguiente proyecto tiene como objetivo implentar el algoritmo YOLO en la tare
 
 La base de datos utilizada consiste en 410 imágenes microscópicas con sus respectivos labels.
 
-  Se llevará a cabo la clasificación de las siguientes células :
+ Se llevará a cabo la clasificación de las siguientes células :
 
- *Glóbulos Rojos (GR).
- *Glóbulos Blancos (GB).
- *Plaquetas.
+*Glóbulos Rojos (GR).
+*Glóbulos Blancos (GB).
+*Plaquetas.
 
 
 ## Preprocesado del conjunto de datos.
