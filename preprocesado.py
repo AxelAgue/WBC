@@ -3,6 +3,7 @@ import cv2
 img = cv2.imread("/home/aaguerreberry/BASE_DE_DATOS_WBC/wbc-classification/Original_Images/BloodImage_00005.jpg")
 
 cv2.imshow("Imagen Original", img)
+cv2.waitKey(0)
 
 ## Funciones para preporcesar las imagenes:
 
@@ -26,7 +27,7 @@ def flip_images(image):
     v_img = cv2.flip(image, 1)
     return h_img, v_img
 
-
+"""
 img_rotada1 = rotate_images(img, angle=90)
 cv2.imshow("Rotada_90", img_rotada1)
 
@@ -53,7 +54,7 @@ cv2.imshow( "Rotada_270_Horizontal flip3", h_img3 )
 cv2.imshow( "Rotada_270_Vertical flip3", v_img3 )
 
 cv2.waitKey(0)
-
+"""
 
 
 

@@ -118,6 +118,8 @@ def labels_total(n_grid_cells, label):
     for j in range(n_grid_cells):
         for i in range(n_grid_cells):
 
+
+
             dx1 = (j) * x
             dy1 = (i) * y
             dx2 = (j+1) * x
@@ -126,14 +128,15 @@ def labels_total(n_grid_cells, label):
 
             for k in range(len(label)):
 
+
                 a = label[k]
 
                 if a[1] > dx1 and a[1] < dx2 and a[2] > dy1 and a[2] < dy2:
                     l_total.append(a)
 
-                else:
-                    b = np.asarray([0, 0, 0, 0, 0, 0, 0, 0])
-                    l_total.append(b)
+
+            b = np.asarray([0, 0, 0, 0, 0, 0, 0, 0])
+            l_total.append(b)
 
 
     return np.asarray(l_total)
@@ -141,14 +144,16 @@ def labels_total(n_grid_cells, label):
 
 label_test = give_label(tree)
 
-total = labels_total(12, label_test)
+total = labels_total(10, label_test)
 
 ## print(label_test)
 
-print(total[0:60])
+print(total.shape)
+
+print(10*10)
 
 
-
+## def plot_from_labels(image, label):
 
 
 
